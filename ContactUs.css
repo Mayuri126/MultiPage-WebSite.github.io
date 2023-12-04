@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IBM Plex Sans;
+}
+
+body{
+    background-color: #f0f4f5;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: rgb(84, 84, 170);
+}
+
+a:active{
+    color: rgb(2, 2, 219);
+}
+
+.listitem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 80px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.navbar img{
+    margin-left: 80px;
+    padding-top: 5px;
+}
+
+
+.formbox{
+   width: 290px; 
+   height: 370px;
+   margin-top: 130px;
+   margin-left: 560px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px black;
+}
+
+input{
+    border: none;
+    border-radius: 12px;
+    padding: 2px 10px;
+    padding-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Message{
+    border: none;
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin-top: 5px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+form{
+    padding-left: 16px;
+}
+
+.sub-btn{
+    cursor: pointer;
+    background-color: #20BC7E;
+    color: white;
+    border: #20BC7E;
+    border-radius: 8px;
+    padding: 7px 110px;
+    margin-top: 10px;
+}

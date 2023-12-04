@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IBM Plex Sans;
+}
+
+body{
+    background-color: #f0f4f5;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: rgb(84, 84, 170);
+}
+
+a:active{
+    color: rgb(2, 2, 219);
+}
+
+.listitem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 80px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.navbar img{
+    margin-left: 80px;
+    padding-top: 5px;
+}
+
+main{
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/11%20Feb%202023/Multi-Page%20Website/images/stethoscope.png?raw=true");
+    background-repeat: no-repeat;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.leftsec{
+    padding-left: 100px;
+}
+
+.leftsec .heading{
+    font-size: 25px;
+}
+
+.heading h1{
+    padding-top: 2px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.para{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.para p{
+    padding-left: 10px;
+    line-height: 22px;
+    font-size: 16px;
+    color: rgb(103, 101, 101);
+}
+
+.para img{
+    padding-left: 4px;
+    padding-top: 40px;
+}
+
+.btn button{
+    background-color: #0fc97f;
+    color: rgb(247, 243, 243);
+    font-weight: 800;
+    border: none;
+    border-radius: 18px;
+    padding: 9px 28px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn .mouse{
+    padding-top: 20px;
+    padding-left: 220px;
+}
+
+.btn button{
+    cursor: pointer;
+}
+
+.rightsec{
+    padding-top:200px;
+    padding-left: 545px;
+}
+
+.greenbox{
+    position: relative;
+}
+
+.yellowbox{
+    position: absolute;
+    top: 370px;
+    right: 1px;
+}
+
+.doctor{
+    position: absolute;
+    top: 80px;
+    right: 1px;
+}
